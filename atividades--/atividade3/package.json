@@ -1,0 +1,14 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "\"projeto de teste\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "var 2"
+  },
+  "author": "Kairo",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
