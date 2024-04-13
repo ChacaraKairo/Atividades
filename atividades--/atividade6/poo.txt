@@ -1,0 +1,6 @@
+Programação orientada a objetos
+ Um objeto tem caracteristicas proprias 
+ funcionalidades proprias
+ escolpo bem definido
+ objeto.info() imprime as informações do objeto
+ 

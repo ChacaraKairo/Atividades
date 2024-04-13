@@ -1,16 +1,15 @@
-const readline = require("readline");
-
-// Crie uma interface de leitura
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-// Pergunte ao usuário para inserir um número
-rl.question("Por favor, insira um número: ", (numero) => {
-  // Trate o número inserido pelo usuário (aqui você pode realizar a validação necessária)
-  console.log(`Você inseriu o número: ${numero}`);
-
-  // Feche a interface de leitura
-  rl.close();
-});
+/*
+const prompt = require("prompt-sync")();
+const numero = prompt("Você quer saber a tabuada de qual número: ");
+console.log(`A tabuada de ${numero} é:`);
+for (i = 0; i < 11; i++) {
+  console.log(`${numero}X${i}=${numero * i}`);
+}
+*/
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
+const numero = prompt("Você quer saber a tabuada de qual número: ");
+console.log(`A tabuada de ${numero} é:`);
+for (i = 0; i < 11; i++) {
+  console.log(`${numero}X${i}=${numero * i}`);
+}

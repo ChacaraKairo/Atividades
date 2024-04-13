@@ -1,10 +1,11 @@
 {
-  "name": "json",
+  "type": "module",
+  "name": "atividade3",
   "version": "1.0.0",
-  "description": "\"projeto de teste\"",
-  "main": "index.js",
+  "description": "Projeto3",
+  "main": "atividade3.js",
   "scripts": {
-    "test": "var 2"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kairo",
   "license": "ISC",

@@ -1,0 +1,16 @@
+{
+  "name": "aula1-node",
+  "version": "1.0.0",
+  "description": "\"Projeto de Teste\"",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^4.1.1",
+    "prompt-sync": "^4.2.0",
+    "strip-ansi": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo"
+  },
+  "author": "\"Kairo Chácara\"",
+  "license": "ISC"
+}
